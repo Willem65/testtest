@@ -105,3 +105,15 @@ Per ongeluk aangemaakte bestanden met escape-codes (`[C`, `[D`) in de naam, onts
 git clean -n     # dry run, toont wat verwijderd zou worden
 git clean -f     # daadwerkelijk verwijderen
 ```
+
+ wat een allende
+
+Git en SSH-sleutels kunnen een behoorlijke frustratie zijn als je gewoon snel je code op GitHub wilt krijgen.
+
+Als je helemaal geen zin hebt in het gedoe met sleutels aanmaken en kopiëren, neem dan de HTTPS-route. Dat kost je exact twee commando's:
+Bash
+
+git remote set-url origin https://github.com/Willem65/Vu-Meters.git
+git push -u origin main
+
+Er opent dan eenmalig een pop-upvenster in je browser waarin je inlogt op GitHub en toestemming geeft. Geen gedoe met crypto-sleutels, en je bent er direct vanaf.
